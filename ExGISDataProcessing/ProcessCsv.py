@@ -29,7 +29,7 @@ class DataParser:
 
 def main():
     cols = "Location,Cites,Perpetrator,Weapon,Injuries,Fatalities,Description,Latitude,Longitude,Time,RegionId"
-    parser = DataParser("localhost", "Terrorism", "postgres", "sunwolf43")
+    parser = DataParser("localhost", "Terrorism", "postgres", "xXxXxXxXxXxXx")
     parser.ProcessFile("L:\\New folder\\ObservationData_fyefxib\\ObservationData_fyefxib.csv", cols, "Observations", ",", "\"", [7,8], True)
 
 if __name__ == "__main__": main()
